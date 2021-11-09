@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A8EE97273AF36D00202A18 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8EE96273AF36D00202A18 /* AutoLayout.swift */; };
+		45A8EE99273B0B8B00202A18 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8EE98273B0B8B00202A18 /* LaunchScreenViewController.swift */; };
+		45A8EE9B273B1DBE00202A18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8EE9A273B1DBE00202A18 /* HomeViewController.swift */; };
+		45A8EE9E273B2B6800202A18 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8EE9D273B2B6800202A18 /* Router.swift */; };
 		45B7F4052739FD0F00AA612D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7F4042739FD0F00AA612D /* AppDelegate.swift */; };
 		45B7F4072739FD0F00AA612D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7F4062739FD0F00AA612D /* SceneDelegate.swift */; };
 		45B7F4092739FD0F00AA612D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7F4082739FD0F00AA612D /* ViewController.swift */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45A8EE96273AF36D00202A18 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		45A8EE98273B0B8B00202A18 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		45A8EE9A273B1DBE00202A18 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45A8EE9D273B2B6800202A18 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		45B7F4012739FD0F00AA612D /* BDB-No-StoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BDB-No-StoryBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B7F4042739FD0F00AA612D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B7F4062739FD0F00AA612D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +43,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45A8EE93273AED5A00202A18 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		45A8EE94273AED6100202A18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45A8EE98273B0B8B00202A18 /* LaunchScreenViewController.swift */,
+				45A8EE9A273B1DBE00202A18 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45A8EE95273AF35F00202A18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45A8EE96273AF36D00202A18 /* AutoLayout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A8EE9C273B2AFD00202A18 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45A8EE9D273B2B6800202A18 /* Router.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		45B7F3F82739FD0F00AA612D = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +94,10 @@
 		45B7F4032739FD0F00AA612D /* BDB-No-StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				45A8EE9C273B2AFD00202A18 /* Network */,
+				45A8EE95273AF35F00202A18 /* Extensions */,
+				45A8EE94273AED6100202A18 /* Views */,
+				45A8EE93273AED5A00202A18 /* Services */,
 				45B7F4042739FD0F00AA612D /* AppDelegate.swift */,
 				45B7F4062739FD0F00AA612D /* SceneDelegate.swift */,
 				45B7F4082739FD0F00AA612D /* ViewController.swift */,
@@ -136,7 +180,11 @@
 			files = (
 				45B7F4092739FD0F00AA612D /* ViewController.swift in Sources */,
 				45B7F4052739FD0F00AA612D /* AppDelegate.swift in Sources */,
+				45A8EE99273B0B8B00202A18 /* LaunchScreenViewController.swift in Sources */,
+				45A8EE9E273B2B6800202A18 /* Router.swift in Sources */,
 				45B7F4072739FD0F00AA612D /* SceneDelegate.swift in Sources */,
+				45A8EE97273AF36D00202A18 /* AutoLayout.swift in Sources */,
+				45A8EE9B273B1DBE00202A18 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
